@@ -1,0 +1,82 @@
+﻿.successfulCase .el-card__body {
+    padding:0;
+}
+.successfulCase  .el-card{
+    border: none;
+}
+.el-menu-item:hover{
+    background: white !important;
+}
+.el-menu-demo .is-active{
+	background: white !important;
+}
+
+/* 修改期限预警承办人搜索框 */
+.searchCriteria-option input{
+    height: 28px;
+    font-size: 12px;
+}
+/* 首页修改   jqq*/
+.el-header{
+    height:76px !important;
+}
+.indexPage .el-col{
+    padding:0 !important;
+}
+.mapBox span.el-checkbox__inner{
+    width:18px;
+    height:18px;
+    background:none;
+    border-radius:0px;
+}
+.mapBox .el-checkbox__inner::after{
+    height: 10px;
+    left: 6px;
+}
+.mapBox span.el-checkbox__label{
+    font-size: 16px;
+}
+.mapBox .el-input__inner{
+    background: none;
+    border:none;
+    color:#0dfdfe;
+    font-size: 16px;
+}
+.mapBox .el-input-group__append{
+    background: none;
+    border:none;
+    color:#0dfdfe;
+    font-size: 16px;
+}
+.mapBox .el-input-group__append button.el-button{
+    border:none;
+    border-radius: 0px;
+}
+/* .el-scrollbar__wrap {
+    overflow-x: hidden;
+} */
+
+/* mmh */
+.indexPage-massage .el-tabs__content {
+    display: none;
+}
+
+.indexPage-massage .el-tabs__header {
+    margin: 0px;
+}
+
+.dataOperation .el-tabs__content {
+    display: none;
+}
+
+.dataShowWarp .el-table thead {
+    display: none;
+}
+
+.dataShow div {
+    font-size: 14px;
+    text-align: center;
+}
+.dataOperation .el-tabs--card>.el-tabs__header .el-tabs__nav{
+    border-radius:0px;
+}
